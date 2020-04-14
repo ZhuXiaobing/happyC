@@ -1,0 +1,40 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "makerun",
+            // 如果要想断点，必须在makefile中的编译命令中加入-g参数。
+            "command": "D:\\work_softwares\\mingw64\\bin\\mingw32-make.exe",
+            "args": [
+                "-C",
+                "${workspaceFolder}",
+                "MainTest"
+            ],
+            "options": {
+                "cwd": "D:\\work_softwares\\mingw64\\bin"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "notmakerun",
+            // 如果要想断点，必须在args中加入-g参数。
+            "command": "D:\\work_softwares\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "-g", 
+                "${workspaceFolder}\\*.c",
+                "-o",
+                "${workspaceFolder}\\MainTest.exe"
+            ],
+            "options": {
+                "cwd": "D:\\work_softwares\\mingw64\\bin"
+            },
+            "problemMatcher": []
+        }
+    ],
+    "version": "2.0.0"
+}
