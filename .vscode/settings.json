@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "string.h": "c",
+        "assert.h": "c",
+        "errno.h": "c",
+        "corecrt.h": "c",
+        "setjmp.h": "c"
+    }
+}

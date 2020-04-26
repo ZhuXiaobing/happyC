@@ -9,7 +9,7 @@
                 "-C",
                 "${workspaceFolder}",
                 "MainTest"
-            ],
+            ], 
             "options": {
                 "cwd": "D:\\work_softwares\\mingw64\\bin"
             },
