@@ -3,6 +3,7 @@
 //
 #include <stdio.h>
 #include <malloc.h>
+#include <assert.h>
 #include "funcha.h"
 
 int main() {
