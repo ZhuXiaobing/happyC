@@ -5,6 +5,8 @@
         "assert.h": "c",
         "errno.h": "c",
         "corecrt.h": "c",
-        "setjmp.h": "c"
+        "setjmp.h": "c",
+        "stdarg.h": "c",
+        "vcruntime.h": "c"
     }
 }
