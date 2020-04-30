@@ -7,6 +7,7 @@
         "corecrt.h": "c",
         "setjmp.h": "c",
         "stdarg.h": "c",
-        "vcruntime.h": "c"
+        "vcruntime.h": "c",
+        "stddef.h": "c"
     }
 }
